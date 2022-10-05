@@ -1,0 +1,30 @@
+.ContainerHeight2{
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    background:rgb(182, 175, 197,0.2);
+    /* height: 40vh; */
+}
+.IMGSetter{
+    padding-left: 50px;
+}
+
+.IMGCover2{
+    padding-left: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+#light .ContainerHeight2{
+    background: rgba(181, 174, 196, 0.4); 
+  }
+  #dark .ContainerHeight2{
+    background:rgba(0, 0, 0);
+  } 
+
+  #light .aboutCVS{
+    color: black; 
+  }
+  #dark .aboutCVS{
+    color:white;
+  }

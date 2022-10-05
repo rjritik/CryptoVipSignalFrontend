@@ -1,0 +1,92 @@
+.RequestContainer2{
+      padding-right:6rem;
+      text-align: center;
+      height: 85vh;
+  }
+ 
+  input {
+    border: none; /* Removes the default border */
+  }
+  
+  input:focus {
+    outline: none /* Removes the border when the input is clicked */
+  }
+  
+  .RequestTitle{
+    font-size: 2rem;
+    margin-top: 5px;
+    color: rgb(34, 33, 33);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .inputRequestSet{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgb(24, 24, 24);
+  }
+
+  #fullName,#telegramId{
+    font-size: 1.5rem;
+     font-size: 16px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif; 
+  }
+  
+
+  #description{
+    border:1px solid ;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin-top:10px; 
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color:rgb(182, 175, 197,0.2);
+    font-size: 16px;
+    resize: none;
+  }
+  .RegisterBtn{
+    width:24rem;
+    margin-top: 10px;
+  }
+  .mainDiv{
+    background-color:rgb(182, 175, 197,0.2);
+    height:88vh;
+  }
+  
+.form-control{
+      border: none;
+      background: transparent;
+      outline:none;
+}
+
+.form-control:active{
+  border: none;
+  background: transparent;
+  outline:none;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  outline-offset: 0;
+  outline: none;
+}
+
+.image-banner{
+  max-width: 100%;
+  max-height: 100%; 
+}
+
+.qr{
+  margin: auto;
+}
+
+#light .mainDiv{
+  background: rgba(181, 174, 196, 0.4); 
+}
+#dark .mainDiv{
+  background:rgb(30, 30, 39,0.8);
+} 

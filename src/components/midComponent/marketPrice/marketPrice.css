@@ -1,0 +1,88 @@
+.main_slider {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  .main_slider_content {
+    width: 100%;
+  }
+  .main_slider_content h6 {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 29px;
+  }
+  .main_slider_content h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .fill_height {
+    height: 100%;
+  }
+  .red_button {
+    display: -webkit-inline-box;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    background: #fe4c50;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  .red_button:hover {
+    background: #fe7c7f !important;
+  }
+  .red_button a {
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 40px;
+    width: 100%;
+  }
+  .shop_now_button {
+    width: 140px;
+    margin-top: 32px;
+  }
+  .mainText{
+    font-size: 2.5rem;
+    font-weight:normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+  .subText{
+    font-weight:500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+  }
+
+  #light .mainText{
+    color: black; 
+  }
+  #dark .mainText{
+    color:white;
+  }
+  #light .main_slider{
+    background: rgba(181, 174, 196, 0.4); 
+  }
+  #dark .main_slider{
+    background:rgba(0, 0, 0);
+  }
+  #light {
+    color: black; 
+  }
+  #dark .subText{
+    color:white;
+  }
